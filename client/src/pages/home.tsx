@@ -309,8 +309,8 @@ export default function Home() {
               },
               {
                 icon: <Shield className="w-6 h-6" />,
-                title: "Canonical-Free",
-                description: "Built on Ubuntu's solid foundation, minus the Canonical ecosystem. No snap store, no telemetry.",
+                title: "Snap-Free",
+                description: "Built on Ubuntu's solid foundation, minus the Snap's ecosystem. No snap store, no telemetry.",
                 color: "from-chart-2/20 to-primary/20",
                 testId: "card-feature-2"
               },
@@ -410,7 +410,7 @@ export default function Home() {
               <CardContent className="p-8 sm:p-12">
                 <div className="text-center mb-8 space-y-4">
                   <Badge variant="secondary" className="glass-badge backdrop-blur-xl border-white/20 mb-4 animate-float-badge-slow" data-testid="badge-version">
-                    Latest: gubuntu-beta-2025.11.05
+                    Latest: gnomix-beta-2025.11.05
                   </Badge>
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-primary to-chart-3 bg-clip-text text-transparent" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                     Gnomix Beta
@@ -506,7 +506,7 @@ export default function Home() {
             {[
               {
                 question: "What is Gnomix?",
-                answer: "Gnomix is a Linux distribution based on Ubuntu that delivers a pure, stock GNOME desktop experience. It removes Canonical's modifications and custom themes, giving you GNOME exactly as the upstream developers intended.",
+                answer: "Gnomix is a Linux distribution based on Ubuntu that delivers a pure, stock GNOME desktop experience. It removes Snap's modifications and custom themes, giving you GNOME exactly as the upstream developers intended.",
                 testId: "1"
               },
               {
@@ -526,7 +526,7 @@ export default function Home() {
               },
               {
                 question: "Can I still use Ubuntu packages and PPAs?",
-                answer: "Yes! Gnomix maintains full compatibility with Ubuntu packages and PPAs. You can use apt, install .deb packages, and add repositories just like you would on Ubuntu. We simply remove Canonical-specific components like snap.",
+                answer: "Yes! Gnomix maintains full compatibility with Ubuntu packages and PPAs. You can use apt, install .deb packages, and add repositories just like you would on Ubuntu. We simply remove Snap-specific components.",
                 testId: "5"
               },
               {
