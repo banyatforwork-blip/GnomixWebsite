@@ -628,7 +628,7 @@ export default function Home() {
                 <span className="text-xl font-bold" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Gnomix</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Ubuntu without the bullshit. Stock GNOME, Canonical-free.
+                Ubuntu without the bullshit. Stock GNOME, Snap-free.
               </p>
             </div>
 
