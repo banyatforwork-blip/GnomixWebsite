@@ -693,7 +693,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} Gnomix Project. Not affiliated with Canonical or Ubuntu.</p>
+            <p>© {new Date().getFullYear()} Gnomix Project. Not affiliated with Snap or Ubuntu.</p>
           </div>
         </div>
       </footer>
