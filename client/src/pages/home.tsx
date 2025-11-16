@@ -239,7 +239,7 @@ export default function Home() {
               <span className="bg-gradient-to-r from-primary via-chart-3 to-chart-2 bg-clip-text text-transparent text-glow">
                 Ubuntu Without
                 <br />
-                The Bullshit
+                The ~~Bullshit~~
               </span>
             </h1>
 
